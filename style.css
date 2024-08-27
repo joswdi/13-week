@@ -1,0 +1,88 @@
+:root {
+  --bg-color: rgb(187, 253, 239);
+  --text-color: rgb(145, 219, 194);
+  --border: 0.5px solid rgb(34, 165, 158);
+  --text-border: 2px 2px black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid rgb(7, 134, 141);
+  background-color: rgb(68, 184, 190);
+  margin-left: 300px;
+  margin-top: 50px;
+  width: 350px;
+  height: 500px;
+}
+
+h1 {
+  font-family: "Matemasie", sans-serif;
+  display: flex;
+  color: rgb(145, 219, 194);
+  text-shadow: var(--text-border);
+  text-transform: lowercase;
+  justify-content: center;
+}
+
+input {
+  background-color: var(--bg-color);
+  border: var(--border);
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  font-family: "Matemasie", sans-serif;
+  padding-inline-start: 55px;
+  margin-left: 80px;
+  font-size: 16px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  flex-flow: row wrap;
+  justify-items: center;
+  align-items: center;
+  width: 150px;
+  margin-left: 60px;
+}
+ul button {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  background-color: var(--bg-color);
+}
+
+button {
+  background-color: rgb(150, 223, 207);
+  border: var(--border);
+  font-family: "Matemasie", sans-serif;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+button:active {
+  border-color: rgb(3, 113, 117);
+  border-width: 3px;
+}
+
+p {
+  background-color: var(--bg-color);
+  border: var(--border);
+  font-family: "Matemasie", sans-serif;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 105px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
